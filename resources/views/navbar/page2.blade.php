@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Page2</title>
 </head>
 <body>
-    <header>
+<header>
         <div class="navbar">
             <span><a href="{{ url('/') }}">Home</a></span>
             <span><a href="{{ url('/page1') }}">Pagina 1</a></span>

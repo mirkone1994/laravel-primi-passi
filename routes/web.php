@@ -20,3 +20,19 @@ Route::get('/', function () {
     ];
     return view('home', $data);
 })->name('home');
+
+Route::get('/page1', function () {
+    $data = [
+        'name' => 'Lorenzo',
+        'surname' => 'Cazzola',
+    ];
+    return view('navbar.page1', $data);
+})->name('page1');
+
+Route::get('/page2', function () {
+    $data = [
+        'name' => 'Giovanni',
+        'surname' => 'Leoncini',
+    ];
+    return view('navbar.page2', $data);
+})->name('page2');
