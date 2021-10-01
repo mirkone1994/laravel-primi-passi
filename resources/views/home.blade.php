@@ -10,8 +10,8 @@
     <header>
         <div class="navbar">
             <span><a href="{{ url('/') }}">Home</a></span>
-            <span><a href="{{ url('/page1') }}">Pagina 1</a></span>
-            <span><a href="{{ url('/page2') }}">Pagina 2</a></span>
+            <span><a href="{{ route('page1') }}">Pagina 1</a></span>
+            <span><a href="{{ route('page2') }}">Pagina 2</a></span>
         </div>
     </header>
     <h1>{{$name}} {{$surname}}</h1>
